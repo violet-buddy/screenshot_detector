@@ -15,8 +15,7 @@ setup(
         "License :: OSI Approved :: BSD License",
         "Development Status :: 4 - Beta",
     ],
-
-    packages=['screenshot_detector'],
+    packages=["screenshot_detector"],
     install_requires=[
         "scipy",
         "pillow",

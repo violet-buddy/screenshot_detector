@@ -4,13 +4,12 @@
 This package implements Screenshot detection base on edge detection.
 """
 
-from .screenshot_detector import (
-    detect,
-    horizontal_filter,
-)
+from .screenshot_detector import detect, detect_folder, horizontal_filter
+
+__all__ = ["detect", "detect_folder", "horizontal_filter"]
 
 __version__ = "0.1"
-__author__ =  """Duc Nguyen (ducnt4@vng.com.vn)"""
+__author__ = """Duc Nguyen (ducnt4@vng.com.vn)"""
 #    Copyright (C) 2018 by
 #    Duc Nguyen (ducnt4@vng.com.vn)
 #    All rights reserved.
