@@ -123,7 +123,7 @@ def detect_folder(folder_path, nprocess=40, output="output.tsv"):
 
     if not list_image:
         logger.warning(f"No image files found in {folder_path} or its subdirectories")
-        return
+        return pd.DataFrame()
 
     logger.info(f"Found {len(list_image)} image files to process")
     result = detect(list_image, nprocess, output)
